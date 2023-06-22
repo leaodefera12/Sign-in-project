@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in - Vitalis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <p><a href="#">< &nbsp Home page</a></p>
+    </header>
+
+    <main class="container">
+        <h2 id="vita">Vitalis</h2>
+        
+        <form action="#">
+            <div class="title">
+                <h2>Welcome to Vitalis!</h2>
+                <p>Face your demons, become the best!</p>
+            </div>
+
+            <div class="input-field">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required class="form-control" placeholder="Enter email">
+            </div>
+
+            <div class="input-field">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required maxlength="10" class="form-control" placeholder="Enter password">
+            </div>
+
+            <div class="remember-forgot">
+                <div>
+                    <input type="checkbox" id="forgot">
+                    <label for="forgot" id="text-here">Remember me</label>
+                </div>
+
+                <a href="#">Forgot password?</a>
+            </div>
+
+            <button id="submit-btn" type="submit">Sign in</button>
+
+            <button id="google-btn">
+                <img src="7123025_logo_google_g_icon.png" alt="Google" width="35px">
+                Sign in with google
+            </button>
+
+            <div id="login-callout">
+                <p>Don't have an account yet? <a href="#">Sign up</a></p>
+            </div>
+
+        </form>
+
+    </main>
+    
+</body>
+</html>
